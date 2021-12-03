@@ -1118,9 +1118,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1402078814}
   currentScore: 0
-  clearScore: 1500
+  clearScore: 10000
   timerText: {fileID: 1387903520}
-  gameTime: 120
+  gameTime: 9999
   gamePauseUI: {fileID: 698884258}
 --- !u!4 &1834226686
 Transform:
@@ -1130,7 +1130,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1834226684}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -974.4563, y: 26.674627, z: -180.73264}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

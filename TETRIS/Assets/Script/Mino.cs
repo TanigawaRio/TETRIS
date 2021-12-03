@@ -9,6 +9,10 @@ public class Mino : MonoBehaviour
 
     private static Transform[,] grid = new Transform[width, height];
 
+    private static int addition = 0;
+
+    public int total = 0;
+
     public float previousTime;
 
     public float fallTime = 1f;
@@ -27,6 +31,7 @@ public class Mino : MonoBehaviour
         MinoMovement();
     }
 
+    // minoˆÚ“®ˆ—
     private void MinoMovement()
     {
         if(Input.GetKeyDown(KeyCode.LeftArrow))
@@ -63,6 +68,20 @@ public class Mino : MonoBehaviour
             transform.RotateAround(transform.TransformPoint(rotationPoint), new Vector3(0, 0, 1), 90);
         }
     }
+
+    /*public void CheckBlocks()
+    {
+        for(int i = height - 1; i >= 0; i--)
+        {
+            for(int j = 0; j < width; j++)
+            {
+                if(grid[j,i] != null)
+                {
+                    addition = gameObject.GetComponentInChildren<RandomNum>().randomNum;
+                }
+            }
+        }
+    }*/
 
     public void CheckLines()
     {
@@ -132,6 +151,7 @@ public class Mino : MonoBehaviour
         }
     }
 
+    // ˆÚ“®”ÍˆÍ‚Ì§Œä
     bool ValidMovement()
     {
         foreach(Transform children in transform)

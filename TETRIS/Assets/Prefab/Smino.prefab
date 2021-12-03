@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 729080597108504033}
   - component: {fileID: 3725032195376405725}
+  - component: {fileID: 7171467700922115229}
   m_Layer: 0
   m_Name: Smino3
   m_TagString: Untagged
@@ -82,6 +83,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7171467700922115229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387488926592815842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e5b6ffcf17f9b4aaf399a271a2adfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  s_ichi: {fileID: 21300000, guid: f5f3f3d103716b641a8f8d2e754b5305, type: 3}
+  s_ni: {fileID: 21300000, guid: fe779f549e932cc44a0a990e18c373ff, type: 3}
+  s_san: {fileID: 21300000, guid: 0f6c4f1a3b28317479c7a6eb89facb15, type: 3}
+  s_yon: {fileID: 21300000, guid: 8c6805ba3dfaee148a4747123775e7ed, type: 3}
+  s_go: {fileID: 21300000, guid: d8e8df0f030bf6844898bbc331e93efc, type: 3}
+  s_roku: {fileID: 21300000, guid: 2f63ccf0285a338409837b67c1d0087d, type: 3}
 --- !u!1 &1601412273986768580
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,6 +111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1604228327782041011}
   - component: {fileID: 8947294288002549039}
+  - component: {fileID: 1755786173374966953}
   m_Layer: 0
   m_Name: Smino2
   m_TagString: Untagged
@@ -164,6 +184,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1755786173374966953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601412273986768580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e5b6ffcf17f9b4aaf399a271a2adfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  s_ichi: {fileID: 21300000, guid: f5f3f3d103716b641a8f8d2e754b5305, type: 3}
+  s_ni: {fileID: 21300000, guid: fe779f549e932cc44a0a990e18c373ff, type: 3}
+  s_san: {fileID: 21300000, guid: 0f6c4f1a3b28317479c7a6eb89facb15, type: 3}
+  s_yon: {fileID: 21300000, guid: 8c6805ba3dfaee148a4747123775e7ed, type: 3}
+  s_go: {fileID: 21300000, guid: d8e8df0f030bf6844898bbc331e93efc, type: 3}
+  s_roku: {fileID: 21300000, guid: 2f63ccf0285a338409837b67c1d0087d, type: 3}
 --- !u!1 &3137287792933671595
 GameObject:
   m_ObjectHideFlags: 0
@@ -224,6 +262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1968014103148775142}
   - component: {fileID: 8080063107267751249}
+  - component: {fileID: 572587549119397227}
   m_Layer: 0
   m_Name: Smino4
   m_TagString: Untagged
@@ -296,6 +335,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &572587549119397227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6169885662859892285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e5b6ffcf17f9b4aaf399a271a2adfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  s_ichi: {fileID: 21300000, guid: f5f3f3d103716b641a8f8d2e754b5305, type: 3}
+  s_ni: {fileID: 21300000, guid: fe779f549e932cc44a0a990e18c373ff, type: 3}
+  s_san: {fileID: 21300000, guid: 0f6c4f1a3b28317479c7a6eb89facb15, type: 3}
+  s_yon: {fileID: 21300000, guid: 8c6805ba3dfaee148a4747123775e7ed, type: 3}
+  s_go: {fileID: 21300000, guid: d8e8df0f030bf6844898bbc331e93efc, type: 3}
+  s_roku: {fileID: 21300000, guid: 2f63ccf0285a338409837b67c1d0087d, type: 3}
 --- !u!1 &7674588301781673175
 GameObject:
   m_ObjectHideFlags: 0
@@ -306,6 +363,7 @@ GameObject:
   m_Component:
   - component: {fileID: 672200200227121006}
   - component: {fileID: 3384219456158897855}
+  - component: {fileID: 5372314124160433484}
   m_Layer: 0
   m_Name: Smino1
   m_TagString: Untagged
@@ -378,3 +436,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5372314124160433484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7674588301781673175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e5b6ffcf17f9b4aaf399a271a2adfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  s_ichi: {fileID: 21300000, guid: f5f3f3d103716b641a8f8d2e754b5305, type: 3}
+  s_ni: {fileID: 21300000, guid: fe779f549e932cc44a0a990e18c373ff, type: 3}
+  s_san: {fileID: 21300000, guid: 0f6c4f1a3b28317479c7a6eb89facb15, type: 3}
+  s_yon: {fileID: 21300000, guid: 8c6805ba3dfaee148a4747123775e7ed, type: 3}
+  s_go: {fileID: 21300000, guid: d8e8df0f030bf6844898bbc331e93efc, type: 3}
+  s_roku: {fileID: 21300000, guid: 2f63ccf0285a338409837b67c1d0087d, type: 3}
